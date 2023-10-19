@@ -56,8 +56,18 @@ input[type="checkbox"]:checked {
     font-weight: 400;
 }
 
+.show-on {
+    display: block;
+}
+
 @media (min-width: 600px) {
     body {
         background-image: url(../public/images/bg-desktop-light.jpg);
+    }
+}
+
+@media (min-width: 1200px) {
+    .show-on {
+        display: none;
     }
 }

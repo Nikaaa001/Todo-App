@@ -81,7 +81,7 @@ function App() {
           
           <input type="checkbox"/>
           <input type="text" placeholder='Create a new todo…' className=' outline-none ml-[12px] text-taskCOlor text-12px font-josefin' value={inputValue} onChange={handleInputChange} onKeyDown={handleKeyPress} />
-
+          <button onClick={addTask} className=' show-on text-taskCOlor font-josefin text-12px ml-[15px]'>Add Task</button>
         </label>
 
         <div className="relative w-full h-[368px] bg-[#FFF] mt-[16px] shadow-shadowConts rounded-[5px] overflow-auto">
