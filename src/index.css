@@ -34,6 +34,28 @@ input[type="checkbox"]:checked {
     border: none;
 }
 
+.completed-task {
+    text-align: left;
+    color: #D1D2DA;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: line-through;
+    text-decoration-line: strikethrough;
+}
+
+.isnot-complete {
+    text-align: left;
+    color: #494C6B;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+
 @media (min-width: 600px) {
     body {
         background-image: url(../public/images/bg-desktop-light.jpg);
