@@ -17,8 +17,9 @@ export default {
         josefin: "'Josefin Sans', sans-serif"
       },
       fontSize: {
-        '20px': '20px',
         '40px': '40px',
+        '20px': '20px',
+        '18px': '18px',
         '14px': '14px',
         '12px': '12px',
       },

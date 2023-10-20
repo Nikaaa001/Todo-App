@@ -3,12 +3,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+    
+}
+
 body {
     background-image: url(../public/images/bg-mobile-light.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100% 200px;
-    background-color: #FAFAFA;;
 }
 
 input[type="checkbox"] {
@@ -60,9 +63,27 @@ input[type="checkbox"]:checked {
     display: block;
 }
 
+.filter-windows {
+    display: none;
+}
+
+.filter-mobile {
+    display: flex;
+}
+
 @media (min-width: 600px) {
     body {
         background-image: url(../public/images/bg-desktop-light.jpg);
+    }
+}
+
+@media (min-width: 640px) {
+    .filter-windows {
+        display: flex;
+    }
+    
+    .filter-mobile {
+        display: none;
     }
 }
 
