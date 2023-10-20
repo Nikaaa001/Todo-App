@@ -14,7 +14,7 @@ export default {
         'taskCOlor': '#494C6B'
       },
       fontFamily: {
-        josefin: "''Josefin Sans', sans-serif"
+        josefin: "'Josefin Sans', sans-serif"
       },
       fontSize: {
         '20px': '20px',

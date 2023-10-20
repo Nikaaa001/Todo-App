@@ -104,8 +104,8 @@ function App() {
         <div className="absolute w-full h-[48px] bottom-[128px] left-0 bg-[#FFF]">
             <hr className='w-full h-[2px]'/>
             <div className="w-full h-[48px] flex items-center justify-between px-[20px]">
-              <span>{countUncheckedTasks()} items left</span>
-              <button onClick={clearAllTasks}>Clear Completed</button>
+              <span className=' text-active font-josefin text-12px '>{countUncheckedTasks()} items left</span>
+              <button onClick={clearAllTasks} className='text-active font-josefin text-12px'>Clear Completed</button>
             </div>
         </div>
 
@@ -113,21 +113,21 @@ function App() {
 
           <div className="w-[166px] h-[18px] flex justify-between items-center mx-auto">
 
-            <button className={activeButton === "All" ? "text-clickedBlue" : ""}
+            <button className={activeButton === "All" ? "text-clickedBlue font-josefin text-14px" : "text-active font-josefin text-12px"}
                 onClick={() => {
                   setFilter("All");
                   setActiveButton("All");
                 }} >
                 All
               </button>
-              <button className={activeButton === "Active" ? "text-clickedBlue" : ""} 
+              <button className={activeButton === "Active" ? "text-clickedBlue font-josefin text-14px" : "text-active font-josefin text-14px"} 
                 onClick={() => {
                   setFilter("Active");
                   setActiveButton("Active");
                 }} >
                 Active
               </button>
-              <button className={activeButton === "Completed" ? "text-clickedBlue" : ""}
+              <button className={activeButton === "Completed" ? "text-clickedBlue font-josefin text-14px" : "text-active font-josefin text-14px"}
                 onClick={() => {
                   setFilter("Completed");
                   setActiveButton("Completed");
