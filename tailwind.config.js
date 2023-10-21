@@ -11,7 +11,14 @@ export default {
         'active': '#9495A5',
         'clickedBlue': '#3A7CFD',
         'checkedcolor': '#D1D2DA',
-        'taskCOlor': '#494C6B'
+        'taskCOlor': '#494C6B',
+        'backgroundWhite': '#FAFAFA',
+        'backgroundBlack': '#171823',
+        'darkModeMain': '#25273D',
+        'darkModeDrag': '#9495A5',
+        'darkTaskColor': '#767992',
+        'addedTaskColor': '#C8CBE7',
+        'filterDark': '#5B5E7E',
       },
       fontFamily: {
         josefin: "'Josefin Sans', sans-serif"
@@ -25,6 +32,12 @@ export default {
       },
       boxShadow: {
         'shadowConts': '0px 35px 50px -15px rgba(194, 195, 214, 0.50)',
+      },
+      backgroundImage: {
+        'img1': "url('/images/bg-mobile-light.jpg')",
+        'img2': "url('/images/bg-mobile-dark.jpg')",
+        'img3': "url('/images/bg-desktop-light.jpg')",
+        'img4': "url('/images/bg-desktop-dark.jpg')",
       }
     },
   },
